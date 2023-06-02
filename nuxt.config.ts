@@ -13,8 +13,14 @@ export default defineNuxtConfig({
         },
     },
     ssr: false,
-    modules: ['nuxt-gtag'],
+    modules: [
+        'nuxt-gtag',
+        'nuxt-simple-sitemap',
+    ],
     gtag: {
         id: 'G-6TFHVB169Z'
-    }
+    },
+    sitemap: {
+        siteUrl: 'https://savatest.netlify.app',
+    },
 })
