@@ -17,6 +17,9 @@ devDependencies:
   nuxt:
     specifier: ^3.5.2
     version: 3.5.2(@types/node@18.0.0)
+  nuxt-gtag:
+    specifier: ^0.5.7
+    version: 0.5.7
   postcss:
     specifier: ^8.4.24
     version: 8.4.24
@@ -3195,6 +3198,17 @@ packages:
     hasBin: true
     optionalDependencies:
       fsevents: 2.3.2
+    dev: true
+
+  /nuxt-gtag@0.5.7:
+    resolution: {integrity: sha512-Q6NRndEJ0phEfKdS4uLy3hpVBkgWGnG5KJ2dhVyCmbLXcfakkmf19f2WJ5uM2yUOg8rAkYgDjRb9XyAfE+okuA==}
+    dependencies:
+      '@nuxt/kit': 3.5.2
+      defu: 6.1.2
+      pathe: 1.1.0
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
     dev: true
 
   /nuxt@3.5.2(@types/node@18.0.0):
